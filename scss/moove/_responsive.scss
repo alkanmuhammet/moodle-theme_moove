@@ -188,14 +188,37 @@
   }
 
   #page-login-index.moove-login {
-    .loginpanel .instructions {
-      border-top-right-radius: $m-login-padding;
-      -webkit-border-top-right-radius:  $m-login-padding;
-      -moz-border-radius-topright: $m-login-padding;
 
-      border-top-left-radius: $m-login-padding;
-      -webkit-border-top-left-radius:  $m-login-padding;
-      -moz-border-radius-topleft: $m-login-padding;
+    #page {
+      padding: 0;
+
+      #region-main-box {
+        padding: 0;
+
+        #region-main {
+          padding: 0;
+
+          .loginpanel {
+            .instructions {
+              border-top-right-radius: $m-login-padding;
+              -webkit-border-top-right-radius: $m-login-padding;
+              -moz-border-radius-topright: $m-login-padding;
+
+              border-top-left-radius: $m-login-padding;
+              -webkit-border-top-left-radius: $m-login-padding;
+              -moz-border-radius-topleft: $m-login-padding;
+
+              padding: 20px 15px;
+              min-height: inherit;
+            }
+
+            .form {
+              height: inherit;
+              max-height: inherit;
+            }
+          }
+        }
+      }
     }
   }
 }
