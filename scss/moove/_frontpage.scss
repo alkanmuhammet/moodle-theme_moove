@@ -74,6 +74,14 @@
         visibility: hidden;
     }
 
+    .btn-login-top {
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        color: $brand-primary;
+        border: 1px solid $brand-primary;
+    }
+
     #page-header {
         background-position: left top;
         background-repeat: no-repeat;
