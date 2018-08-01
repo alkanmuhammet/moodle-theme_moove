@@ -123,16 +123,6 @@ $string['marketing3content'] = 'Conteúdo do Marketing3';
 $string['marketing3contentdesc'] = 'Digite o texto do conteúdo do Marketing3';
 $string['marketing3url'] = 'URL do Marketing3';
 $string['marketing3urldesc'] = 'Digite a URL do Marketing3';
-$string['marketing4icon'] = 'Ícone Marketing4';
-$string['marketing4icondesc'] = 'Envie o ícone do Marketing4';
-$string['marketing4heading'] = 'Cabeçalho do Marketing4';
-$string['marketing4headingdesc'] = 'Digite o texto do cabeçalho do Marketing4';
-$string['marketing4subheading'] = 'Subcabeçalho do Marketing4';
-$string['marketing4subheadingdesc'] = 'Digite o texto do subcabeçalho do Marketing4';
-$string['marketing4content'] = 'Conteúdo do Marketing4';
-$string['marketing4contentdesc'] = 'Digite o texto do conteúdo do Marketing4';
-$string['marketing4url'] = 'URL do Marketing4';
-$string['marketing4urldesc'] = 'Digite a URL do Marketing4';
 
 $string['sliderenabled'] = 'Habilitar Slideshow';
 $string['sliderenableddesc'] = 'Habilita um slideshow no topo da página inicial do site.';

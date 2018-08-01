@@ -196,8 +196,6 @@ function theme_moove_pluginfile($course, $cm, $context, $filearea, $args, $force
         return $theme->setting_file_serve('marketing2icon', $args, $forcedownload, $options);
     } else if ($context->contextlevel == CONTEXT_SYSTEM and $filearea === 'marketing3icon') {
         return $theme->setting_file_serve('marketing3icon', $args, $forcedownload, $options);
-    } else if ($context->contextlevel == CONTEXT_SYSTEM and $filearea === 'marketing4icon') {
-        return $theme->setting_file_serve('marketing4icon', $args, $forcedownload, $options);
     } else if ($context->contextlevel == CONTEXT_SYSTEM and $filearea === 'topfooterimg') {
         return $theme->setting_file_serve('topfooterimg', $args, $forcedownload, $options);
     } else if ($context->contextlevel == CONTEXT_SYSTEM and $filearea === 'loginbgimg') {

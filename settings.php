@@ -339,50 +339,6 @@ if ($ADMIN->fulltree) {
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
 
-    // Marketing4icon.
-    $name = 'theme_moove/marketing4icon';
-    $title = get_string('marketing4icon', 'theme_moove');
-    $description = get_string('marketing4icondesc', 'theme_moove');
-    $opts = array('accepted_types' => array('.png', '.jpg', '.gif', '.webp', '.tiff', '.svg'));
-    $setting = new admin_setting_configstoredfile($name, $title, $description, 'marketing4icon', 0, $opts);
-    $setting->set_updatedcallback('theme_reset_all_caches');
-    $page->add($setting);
-
-    // Marketing4heading.
-    $name = 'theme_moove/marketing4heading';
-    $title = get_string('marketing4heading', 'theme_moove');
-    $description = get_string('marketing4headingdesc', 'theme_moove');
-    $default = 'Support';
-    $setting = new admin_setting_configtext($name, $title, $description, $default);
-    $setting->set_updatedcallback('theme_reset_all_caches');
-    $page->add($setting);
-
-    // Marketing4subheading.
-    $name = 'theme_moove/marketing4subheading';
-    $title = get_string('marketing4subheading', 'theme_moove');
-    $description = get_string('marketing4subheadingdesc', 'theme_moove');
-    $default = 'we give you answers';
-    $setting = new admin_setting_configtext($name, $title, $description, $default);
-    $setting->set_updatedcallback('theme_reset_all_caches');
-    $page->add($setting);
-
-    // Marketing4content.
-    $name = 'theme_moove/marketing4content';
-    $title = get_string('marketing4content', 'theme_moove');
-    $description = get_string('marketing4contentdesc', 'theme_moove');
-    $default = 'MOODLE specialized support';
-    $setting = new admin_setting_configtextarea($name, $title, $description, $default);
-    $setting->set_updatedcallback('theme_reset_all_caches');
-    $page->add($setting);
-
-    // Marketing4url.
-    $name = 'theme_moove/marketing4url';
-    $title = get_string('marketing4url', 'theme_moove');
-    $description = get_string('marketing4urldesc', 'theme_moove');
-    $setting = new admin_setting_configtext($name, $title, $description, '');
-    $setting->set_updatedcallback('theme_reset_all_caches');
-    $page->add($setting);
-
     // Enable or disable Slideshow settings.
     $name = 'theme_moove/sliderenabled';
     $title = get_string('sliderenabled', 'theme_moove');
